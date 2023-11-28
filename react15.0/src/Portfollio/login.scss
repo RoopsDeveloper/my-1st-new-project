@@ -1,0 +1,20 @@
+.Login{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login{
+    section{
+        height: 300px;
+        width: 300px;
+        background-color: skyblue;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

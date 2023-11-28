@@ -1,0 +1,30 @@
+nav{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+section{
+    height: 500PX;
+    width: 100%;
+    background: url("https://www.filmibeat.com/ph-big/2016/06/allu-arjun_146547310600.jpg" );
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    color: white;
+}
+button{
+    border: 1px solid red;
+    color: skyblue;
+}
+main{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

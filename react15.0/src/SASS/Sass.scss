@@ -1,0 +1,36 @@
+$bgcolor:black;
+.Sass{
+    height: 100vh;
+    width: 100%;
+    background: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin inputstyle{
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+.Sass{
+    section{
+        height: 300px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $bgcolor;
+        text-align: center;
+        input{
+            @include inputstyle()
+        }
+        button{
+            margin-top: 10px;
+        }
+    }
+    
+}
